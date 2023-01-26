@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-container {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+}
+
+.header-image {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.onlylinks {
+    display: flex;
+    margin-right: 70px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkone,
+.linktwo,
+.linkthree {
+    font-size: 18px;
+    color: #e5ebe8;
+}
+
+
+.intro {
+    margin-top: 100px;
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.placeholder {
+    margin-left: 150px;
+}
+
+.signbutton {
+    background-color: #3882f6;
+    color: #e5ebe8;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+#title {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+#paragraphone {
+    font-size: 18px;
+    color: #e5ebe8;
+}
+
+.bcontainer {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.grid-container,
+.grid-containertwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.gridone,
+.gridtwo,
+.gridthree,
+.gridfour {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    margin-left: 100px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridonetext,
+.gridtwotext,
+.gridthreetext,
+.gridfourtext {
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.quote-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.testimony {
+    text-align: center;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+#anon {
+    float: right;
+    margin-right: 200px;
+
+}
+
+.calltoaction-container {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.allblue {
+    display:flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+
+}
+
+.calltoaction {
+    font-size: 20px;
+    padding: 35px 60px 35px 60px;
+    color: white;
+}
+
+#sunow {
+    background-color: white;
+    color: #3882f6;
+    font-size: 20px;
+    margin: 35px 60px 35px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.footer-container {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: white;
+    font-size: 20px;
+}
